@@ -48,7 +48,7 @@ Fathom is an efficient, fully open-source pipeline for automated fact-checking o
 - Phi-4 GPTQ inference runs in batches of 4 for optimal latency.
 
 ## 📁 Project Structure
-.
+```
 ├── main/
 │   ├── question_gen_hyde.py       # HyDE-style QA generation
 │   ├── retrieve_bm25.py           # Sparse retrieval using BM25
@@ -61,3 +61,4 @@ Fathom is an efficient, fully open-source pipeline for automated fact-checking o
 ├── config.env                     # Environment and model configuration
 ├── run_system.sh                  # Shell script to run the full pipeline
 └── README.md                      # Project documentation
+```
