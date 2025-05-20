@@ -49,15 +49,15 @@ Fathom is an efficient, fully open-source pipeline for automated fact-checking o
 
 ## 📁 Project Structure
 .
-├── checkmate/
-│ ├── hyde_generation.py
-│ ├── retrieve_bm25.py
-│ ├── semantic_retrieval.py
-│ ├── veracity_pred.py
-│ └── config.env
+├── main/
+│   ├── question_gen_hyde.py       # HyDE-style QA generation
+│   ├── retrieve_bm25.py           # Sparse retrieval using BM25
+│   ├── semantic_retrieval.py      # Semantic reranking of retrieved chunks
+│   ├── veracity_pred.py           # Veracity classification with CoT
 ├── images/
-│ └── arch_diagram.png
+│   └── arch_diagram.png           # System architecture diagram
 ├── data/
-│ └── [claims, predictions, scores]
-└── README.md
-
+│   └── [claims, predictions, scores, knowledge_store]
+├── config.env                     # Environment and model configuration
+├── run_system.sh                  # Shell script to run the full pipeline
+└── README.md                      # Project documentation
