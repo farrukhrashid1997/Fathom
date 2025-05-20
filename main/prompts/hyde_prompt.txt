@@ -1,0 +1,89 @@
+You are a fact-checking assistant.
+The given claim falls into one of the following four categories.
+    1. Supported
+    2. Refuted
+    3. Not Enough Evidence (if there isn’t sufficient evidence to either support or refute it)
+    4. Conflicting Evidence/Cherry-picking (if the claim has both supporting and refuting evidence) 
+
+
+Assume that the claim is a label from the 4 categories and then provide evidence in the form of question-answer pairs. You will be given optional metadata such as speaker, date etc, you can use them if needed. 
+
+IMPORTANT: Follow these rules:
+1. State every single question answer pair in a way that it can be understood independently and without additional context. Therefore, be explicit and do not use pronouns or generic terms in place of names or objects.
+
+2.Each answer to the questions, should be atleast 60 words each with alot of detail and reasoning.
+
+
+3. The question answer pairs should follow the following format: <question>?<answer>||<question>?<answer>||<question>?<answer>||<question>?<answer>||<question>?<answer>
+
+Examples:
+Claim: Over 700,000 children [accessed] early childhood education in the last financial year
+Speaker: Cyril Ramaphosa
+Date: 7-2-2019
+Location: ZA
+Label: Conflicting Evidence/Cherrypicking
+QA:Did Cyril Ramaphosa  underestimate the number of children in early childhood development facilities in South Africa? yes. Ramaphosa put the number at “nearly one million children” in 2018. Then in 2019,  his figure was “over 700,000”. Both figures are an underestimate.||Is Ramaphosa's statement of "over" 700,000 technically correct, whilst being inaccurate? Yes, because The statement is technically correct as he stated "over" 700,000 children. But it is inaccurate as the 2017 general household survey reported that just over 2 million children under the age of four were attending a “day care centre, crèche, early childhood development centre (ECD) playgroup, nursery school or preprimary school”.||Is Ramaphosa's statement of "over" 700,000 technically correct, whilst being inaccurate? The statement is technically correct as he stated "over" 700,000 children. But it is inaccurate and a very low estimate, as the 2017 general household survey reported that just over 2 million children under the age of four were attending a “day care centre, crèche, early childhood development centre (ECD) playgroup, nursery school or preprimary school”.||How many children were in some kind of pre-school in South Africa in 2016? 2,409,953 children were in some kind of pre-school in 2016. (Note: These were children who were younger than eight at the start of 2016.)||What has been said about Cyril Ramaphosas's claims on children's education numbers in 2018? They have been labelled as incorrect. He suggested that 1 million children had access to early childhood education, which is an underestimate
+
+
+Claim: Nigeria are meeting the challenges of security with much greater support to the security forces in terms of money, equipment and improved local intelligence. Nigeria are meeting these challenges with superior firepower and resolve
+Speaker: Buhari
+Date: 12-6-2019
+Location: NG
+Label: Conflicting Evidence/Cherrypicking
+QA:What challenges of security is Nigeria facing? The Nigeria Security Tracker (NST), a project of the Council on Foreign Relations' Africa program, documents and maps violence in Nigeria that is motivated by political, economic, or social grievances. Different groups in Nigeria resort to violence. The militant Islamist movement Boko Haram is active in northern Nigeria. Violence among ethnic groups, farmers, and herdsmen sometimes acquires religious overtones. A new generation of Niger Delta militants threatens war against the state. Government soldiers kill civilians indiscriminately. Police are notorious for extrajudicial murder.||What support is Nigerian Government giving to the security forces? President Muhammadu Buhari has reiterated his administration's commitment to ensure appropriate funding for the Armed Forces in order to enhance the capacity of its personnel and deepen professionalism in the fight against insurgency.||Do Nigerian security forces have superior firepower? There are claims that the Buhari administration and the Nigerian military are inadequately equipping soldiers for the fight against Boko Haram||Is Nigeria facing security challenges? FOR some time now, the problem of insecurity which used to be one of the lowest in the hierarchy of social problems facing this country seems to have assumed alarming proportions since the end of the Nigerian civil war which ended in 1970.||What has the Nigerian government done about the security challenges? The insurgency has attracted the substantial deployment of the nation’s defense and intelligence establishments, as the Joint Task Force (JTF), which is comprised of the police and army, has been deployed in ten states in the north. Also, at border points, there has been tightened security, strict searches, and the deportation of illegal aliens.||What has the Nigerian government done about the security challenges? For instance, the Borno State government donated 10 armoured vehicles to the police, apparently to enable the Force to effectively combat the sect. In the 2012 budget, the government allocated a staggering $5.947 billion to defence and national security, translating to ₦921.91billion. This figure represents 20 per cent of the total budget and the highest allocation ever for defence and security in the history of the country. This also makes Nigeria the biggest spender on defence and security in Africa. The 2012 allocation is also a marked difference from the ₦233 billion in 2009, ₦264billion in 2010, and ₦348 billion in 2011.[19] The government has also ensured that Nigerian security agents receive up to the minute training in counter-terrorism, and every other capacity building initiative available in the world today for combating terrorism. This training has been continuous, taking place both in and outside the country. There has been speculation that some 300 Nigerian soldiers were sent to the United States to receive counter-insurgency, counter-terrorism and bomb-disposal training specifically aimed at fighting BH. However, Nigerian Army sources were reported as denying this. US officials would not comment on whether such activities were linked to BH.[20]||Has the response of the government caused some change in the security challenge? On Friday night an armed gang killed at least 34 people in the north-western state of Zamfara, which has been at the centre of a wave of attacks by bandits since the beginning of the year.  The Boko Haram insurgency has been terrorising people in the north-east for the past decade, and has been the main area of focus for Nigeria's armed forces.  But the triple suicide bombings in Borno on Sunday reflect just how complex the security challenges are.  The government has said that Boko Haram and the rival Islamic State of West Africa Province (Iswap) group are on their last legs. But both the military and population of the north-east continue to suffer regular attacks.
+
+Claim: A no deal Brexit means no more ECJ or ECHR.
+Speaker: None
+Date: None
+Location: GB
+Label: Conflicting Evidence/Cherrypicking
+QA:Would a no deal Brexit remove the jurisdiction of the European Court of Justice? Yes, because The European Communities Act 1972 was the piece of legislation that brought the UK into the Europe Union: it gives EU law supremacy over UK national law.  A large amount of EU law effective in the UK currently relies on the 1972 Act.  The Act is repealed by the EU Withdrawal Act 2018||What is the European Court of Human Rights? The European Court of Human Rights, judicial organ of the Council of Europe, examines applications from individuals, but also inter-State applications, lodged by a State against another State party to the Convention. Currently 47 countries have undertaken to secure fundamental rights and freedoms, not only to their nationals but to everyone, even non-Europeans, within their jurisdiction.||What is the Council of Europe? The Council of Europe (CoE) is a pan-European organisation of 46 member states, including all 27 member states of the European Union. The United Kingdom was one of the founding members. Set up shortly after the end of the Second World War, the CoE’s core mission is to promote human rights, democracy and the rule of law across the continent.||Would a no-deal Brexit remove the jurisdiction of the European Court of Human Rights? The UK will continue to be a member of the European Court of Human Rights after Brexit because its jurisdiction has nothing to do with the EU
+
+
+Claim: The Biden-Sanders agenda proposes to end cash bail, releasing dangerous criminals onto US streets.
+Speaker: Donald Trump
+Date: 14-7-2020
+Location: US
+Label: Conflicting Evidence/Cherrypicking
+QA:Do the Biden-Sanders Unity Task Force recommendations support ending cash bail? Democrats support eliminating the use of cash bail and believe no one should be imprisoned merely for failing to pay fines or fees.||Do the Biden-Sanders Unity Task Force recommendations support ending cash bail? End Cash Bail: Withhold funding from states that continue to use cash bail or other pretrial practices that produce racial bias or other forms of discrimination.||Do the Biden-Sanders Unity Task Force recommendations support ending cash bail? Reform the federal bail system to set clear metrics for reducing pretrial detention rates and prohibit risk assessment tools that carry bias.||Is the End Cash Bail proposal aimed at dangerous criminals? No, because Such concerns led California to make the controversial decision in August 2018 to eliminate cash bail altogether, a move that the bail bond industry blocked pending a 2020 statewide referendum. In the new system, judges would detain defendants pretrial only if they are deemed dangerous or likely to skip court.||Is the End Cash Bail proposal aimed at dangerous criminals? No, because People who are not at high risk||Are there states that don't have the authority to determine if someone is dangerous for pre-trial release? Thanks to a 1971 law, New York is the only state in the country where judges don’t have the authority to consider a person’s possible “dangerousness” in determining the conditions of their release before trial. When reform negotiations in the state began and the door was opened to modifying that system, some lawmakers wanted to add dangerousness as a sanctioned factor for pre-trial release, in exchange for the total abolition of bail in the state. Progressive reformers bristled—arguing that too often, judges ascribe dangerousness in ways that amplify the racial discrimination that pervades the justice system. Ultimately, they pursued a compromise that did not add dangerousness but preserved bail only for the most serious crimes.
+
+
+Claim: The Obama-Biden Administration did not conduct workplace raids
+Speaker: Joe Biden
+Date: 12-9-2019
+Location: US
+Label: Conflicting Evidence/Cherrypicking
+QA:What are 'workplace raids'? The are raids carried out by Government officials to combat worker exploitation, illegal wages, child labour and to combat illegal immigrants working unlawfully in the U.S.||Were any workplace raids carried out when Obama was president of the U.S? Yes, because But Government data on worksite enforcement operations shows that the number of individuals arrested on immigration law violation charges declined after Obama took office.||What was the ICE doing under Obama's jurisdiction? Under current Department of Homeland Security (DHS) guidance on immigration-relatedworksite enforcement, the agency uses available civil and administrative tools, including civilfines and debarment, to penalize and prevent unlawful employment. According to 2012 estimates,there are some 8.1 million unauthorized workers in the U.S. civilian labor force.DHS’s U.S. Immigration and Customs Enforcement (ICE) is responsible for immigration-relatedworksite enforcement, or enforcement of the prohibitions on unauthorized employment in Section274A of the Immigration and Nationality Act (INA). The INA Section 274A provisions,sometimes referred to as employer sanctions, make it unlawful for an employer to knowinglyhire, recruit or refer for a fee, or continue to employ an alien who is not authorized to be soemployed. Today, ICE’s worksite enforcement program is focused primarily on cases that involvecritical infrastructure facilities and cases involving employers who commit “egregious” violationsof criminal statutes and engage in worker exploitation.Employers who violate INA prohibitions on the unlawful employment of aliens may be subject tocivil monetary penalties and/or criminal penalties. Criminal investigations may result indefendants being charged with crimes beyond unlawful employment and being subject to therelevant penalties for those violations||How did the Obama administration tackle work place raids? In April 2009, the Obama administration shifted the focus of workplace enforcement from arresting illegal workers to pressuring employers. The strategy marked an end to the President George W. Bush-era policy of conducting high-profile work-site raids that rounded up illegal immigrants for deportation.  The silent raids have ensnared thousands of businesses, mainly in the restaurant, agricultural and janitorial sectors. ICE agents collect and review hiring files, typically I-9 forms that verify eligibility to work in the U.S. Companies with unauthorized workers can face civil and criminal prosecution.
+
+
+Claim: Pensioners in the UK have to pay for television.
+Speaker: None
+Date: None
+Location: GB
+Label: Conflicting Evidence/Cherrypicking
+QA:What is the regulation in the UK regarding TV licence for pensioners? Free TV Licences are only available if you’re 75 or over and you, or your partner living at the same address, are receiving Pension Credit.||What is Pension Credit? Pension Credit gives you extra money to help with your living costs if you’re over State Pension age and on a low income.||What counts as a pensioner? For TV licenses, anyone over the age of 75 was counted for free TV licences. In 2019, it was announced that TV licences would no longer be free for all those aged over 75. Pensioners under the age of 75 have always had to pay the TV license.
+
+
+
+Claim: Kenyan County Governments allocated out of their budgets at least 20% to health in the 2018/19 financial year.
+Speaker: Wycliffe Oparanya 
+Date: 28-6-2019
+Location: KE
+Label: Supported
+QA:how much of the budget was allocated for health in 2017-2018? The controller of budget’s 2017/18 report shows counties allocated KSh109.2 billion to health out of a total budget of KSh411.6 billion. This means 26.5% of the budget went to health.||how much of the budget was allocated for health in 2018-2019? In 2018/19 the counties allocated KSh114.6 billion to health out of a budget of KSh462.1 billion, giving health a 25% share.  So the total allocation to health for all the counties was above 20%.||Did all counties set aside at least 20% of their budget for healthcare? But not all counties set aside at least 20% of their budgets for healthcare. In 2017/18 at least five counties allocated less than 20%  to health. These were Kakamega (17.1%), Laikipia (13.4%), Taita Taveta (7.7%), Tana River (17.8%) and Turkana (11.6%).  And in 2018/19, nine counties allocated less than 20% of their budgets to health. These were Baringo (2%), Kakamega (13%), Laikipia (13%), Mandera (18%), Nyandarua (11%), Taita Taveta (7%), Tana River (19%), Turkana (11%) and Wajir (17%).
+
+
+Claim: Democratic California Sen. Kamala Harris was the Alameda County district attorney when Oscar Grant, a 22-year-old black man, was shot and killed in Oakland, California.
+Speaker: None
+Date: 11-8-2020
+Location: US
+Label: Refuted
+QA:When was 22-year old Oscar Grant killed in Oakland, California? January 1st, 2009.||Who was the district attorney for Alameda County at the time of Oscar Grant's death? Mr. TOM ORLOFF (District Attorney, Alameda County, California)||Where did Democratic California Sen. Kamala Harris work during Oscar Grant's death? From 2004 until 2010, Kamala Harris was the district attorney for San Francisco County.
+
+
+Claim: <claim>
+Speaker = <speaker>
+Date = <date>
+Location = <location>
+Label: <Supported, Refuted, Not Enough Evidence, Conflicting Evidence/Cherry-picking>
+QA: <question>?<answer>||<question>?<answer>||<question>?<answer>||<question>?<answer>||<question>?<answer>
