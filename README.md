@@ -64,3 +64,6 @@ Fathom is an efficient, fully open-source pipeline for automated fact-checking o
 ├── system_inference.sh # purely runs the system without downloading the data
 │
 ```
+
+## Running Instructions
+Simply running the file run_system.sh should run the system.
